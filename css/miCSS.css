@@ -1,18 +1,17 @@
-.encabezado{
-    background-color: lightgray;
-    width: 100%;
-    top:0;
-    margin:0 px;
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.alineaizquierda{
+    text-align: left;
 }
-header{
-    max-width: 100%;
-    margin: 10px;
+
+.alineacentro{
+    text-align: center;
+}
+.contenedorexterno{
+    background-color: lightgray;
+    height: 150px;
 }
 .frase{
-    background-color: gray;
     text-align: center;
+    vertical-align: middle;    
 }
 footer{
     background-color: darkgray;
@@ -25,6 +24,5 @@ footer{
     width: 25%;
 }
 .banner{
-    max-width:100%;
-    max-height:100%;
+    width:100%;
 }
