@@ -6,9 +6,11 @@
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-header{
-    max-width: 100%;
-    margin: 10px;
+.header{
+    background-color: #ffffff;
+    color: white;
+    margin: 20px;
+    padding: 20px;
 }
 .frase{
     background-color: gray;
