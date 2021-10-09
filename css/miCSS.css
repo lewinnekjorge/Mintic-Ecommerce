@@ -9,20 +9,27 @@
     background-color: lightgray;
     height: 150px;
 }
+.contenedorprueba{
+    background-color: lightgray;
+}
 .frase{
+    padding-top: 3%;
     text-align: center;
     vertical-align: middle;    
 }
 footer{
     background-color: darkgray;
 }
-#centro{
-    background-color: white;
-    text-align: center;
-}
-.IMG{
-    width: 25%;
-}
 .banner{
+    padding: 2%;
     width:100%;
+}
+.flexing{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10%
+}
+.card{
+    flex: 0 1 25%;
 }
