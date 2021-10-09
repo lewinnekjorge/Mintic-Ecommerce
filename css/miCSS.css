@@ -1,19 +1,25 @@
 .alineaizquierda{
     text-align: left;
 }
-
+h3{
+    text-align: center;
+}
 .alineacentro{
     text-align: center;
 }
 .contenedorexterno{
     background-color: lightgray;
-    height: 150px;
+    height: 200px;
 }
 .contenedorprueba{
     background-color: lightgray;
 }
+.spacer{
+    padding: 1%;
+}
 .frase{
-    padding-top: 3%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 4%;
     text-align: center;
     vertical-align: middle;    
 }
@@ -21,15 +27,33 @@ footer{
     background-color: darkgray;
 }
 .banner{
-    padding: 2%;
+    padding: 1%;
     width:100%;
 }
 .flexing{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 10%
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+}
+.card-img-top {
+    width: 100%;
+    height: 20vw;
+    object-fit: cover;
 }
 .card{
     flex: 0 1 25%;
+}
+.card-title{
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.card-text{
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
 }
