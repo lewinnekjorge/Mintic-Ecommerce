@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>ARMANI E-Commerce</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/miCSS.css"/>
+    
+</head>
+<body>
+  <header class= "fonditonav">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="d-flex flex-grow-1">
+            <span class="w-100 d-lg-none d-block">
+                <!-- hidden spacer to center brand on mobile --></span>
+            <a class="navbar-brand d-none d-lg-inline-block" href="index.html"> 
+              <h3 style="color:rgb(67, 67, 67)">&emsp;&emsp;ARMANI</h3></a>
+        </div>
+        <div>
+        <ul class = "nav">
+            <li class="nav">
+              <a href="login.html" class="btn btn-outline-secondary">Iniciar Sesión</a>
+                <!--<button type="button" class="btn btn-outline-secondary" value = "iniciasesion">Iniciar Sesión</button>-->
+            </li>
+            </ul>
+        </div>
+        <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
+            <ul class="navbar-nav ms-auto flex-nowrap">
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link m-2 menu-item nav-active">Acerca de Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link m-2 menu-item">Productos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link m-2 menu-item">Carrito de Compras</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link m-2 menu-item">Contáctenos</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+  </header>
+  <!--------------------------------FINAL DEL NAV------------------------------->       	
+    <section class = "todo">
+    <div class = "container" style="background-color: white; width: auto;">
+            <div class="row">
+                <div class="col-md-5">
+                        <div class="form-top">
+                            <div class="form-top-left" style="padding: 5%;">
+                                <h3 style=>Inicia Sesión</h3>
+                                <p style="text-align: center;">Ingresa Usuario y Contraseña</p>
+                            </div>
+                            <!--<div class="form-top-right">
+                                <i class="fa fa-key"></i>
+                            </div>-->
+                        </div>
+                        <div class="form-bottom" style="padding-left: 10%; padding-right: 10%;">
+                            <form role="form" action="" method="post" class="login-form">
+                                <div class="form-group" style="padding-bottom:5%">
+                                    <label class="sr-only" for="form-username" style="padding-bottom:1%">Usuario</label>
+                                    <input type="text" name="form-username" placeholder="Usuario..." class="form-control" id="form-username">
+                                </div>
+                                <div class="form-group">
+                                    <label class="sr-only" for="form-password" style="padding-bottom:1%">Contraseña</label>
+                                    <input type="password" name="form-password" placeholder="Contraseña..." class="form-control" id="form-password">
+                                </div>
+                                <div class="d-grid gap-2" style= "padding-top: 10%">
+                                <button type="submit" class="btn btn-secondary">INICIAR SESIÓN</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+<!-------------------------------------------- Finaliza Primera Form--------------------------------------------------------->
+
+                    <div class="col-md-1 middle-border" style="background-color:rgb(67,67,67) ;"></div>
+<!-------------------------------------------- Espacio en el centro---------------------------------------------------------->                        	
+                    <div class="col-md-5">                     	
+                        		<div class="form-top">
+	                        		<div class="form-top-left" style="padding: 5%; padding-bottom: 2%;">
+	                        			<h3>Regístrate Ahora!</h3>
+	                            		<p style="text-align: center;">Ingresa los datos</p>
+	                        		</div>
+	                            </div>
+	                            <div class="form-bottom" style="padding-left: 10%; padding-right: 10%;">
+				                    <form role="form" action="" method="post" class="registration-form">
+				                    	<div class="form-group">
+				                    		<label class="sr-only" for="form-first-name" style="padding-bottom:1%">Nombre</label>
+				                        	<input type="text" name="form-first-name" placeholder="Nombre..." class="form-control" id="formname">
+				                        </div>
+				                        <div class="form-group">
+				                        	<label class="sr-only" for="form-last-name" style="padding-bottom:1%; padding-top: 2%;">Usuario</label>
+				                        	<input type="text" name="form-last-name" placeholder="Usuario..." class="form-control" id="formuser">
+				                        </div>
+				                        <div class="form-group">
+				                        	<label class="sr-only" for="form-password" style="padding-bottom:1%; padding-top: 2%;">Contraseña</label>
+				                        	<input type="password" name="form-password" placeholder="Contraseña..." class="form-control" id="formpass">
+				                        </div>
+				                        <div class="form-group">
+				                        	<label class="sr-only" for="form-password" style="padding-bottom:1%; padding-top: 2%;">Confirme su Contraseña</label>
+				                        	<input type="password" name="form-password" placeholder="Contraseña..." class="form-control" id="formconficlave">
+				                        </div>
+                                        <div class="d-grid gap-2" style= "padding-top: 10%; padding-bottom: 10%;">
+                                        <button type="submit" id = registrate class="btn btn-secondary">REGISTRATE</button>
+                                        </div>
+				                    </form>
+			                    </div>                        	
+                    </div>
+                    <!--------Espacio al Final-------->
+                    <div class="col-md-1 middle-border" style="background-color:rgb(67,67,67) ;"></div>
+
+            </div>
+        </div>
+    </section>
+
+      <!----------------- FOOTER ------------------->
+      <footer class="py-5" style="background-color:rgb(208,208,208)">
+        <div class="row">
+          <div class="col-1">
+            <ul class="nav flex-column">
+            </ul>
+          </div>
+          <div class="col-2">
+            <h5 style="color:rgb(67, 67, 67)">ARMANI</h5>
+            <ul class="nav flex-column" style="padding-top: 6%;">
+              <li class="nav-item mb-2 text-muted">+1(234)5678900</li>
+              <li class="nav-item mb-2 text-muted">1431 Lake Road</li>
+              <li class="nav-item mb-2 text-muted">Hamlin, New York 14464</li>
+              <li class="nav-item mb-2 text-muted">United States</li>
+            </ul>
+          </div>
+      
+            <div class="col-2">
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Mi Cuenta</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Productos</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Lista de Deseos</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Carrito de Compras</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Acerca de Nosotros</a></li>
+              </ul>
+            </div>
+            
+            <div class="col-3 offset-1">
+            <div class>
+                  <img src="img/misiontic_logo.png" class="img-fluid" alt="...">
+            </div>
+          </div>
+        </footer>
+</body>
+</html>
