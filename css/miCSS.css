@@ -57,3 +57,14 @@ footer{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
 }
+.form-control{
+    background-color: rgb(232, 232, 232);
+}
+.todo{
+    background-color: rgb(67,67,67); 
+    padding:5%;
+    padding-left: 10%;
+}
+.btn-secondary{
+    background-color: rgb(85, 85, 85);
+}
